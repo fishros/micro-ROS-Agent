@@ -127,8 +127,8 @@ parts:
     source: .
     override-build: |
         set +u
-        git clone https://github.com/eProsima/Micro-XRCE-DDS-Agent.git -b $ROS_DISTRO
-        git clone https://github.com/eProsima/Micro-CDR.git -b $ROS_DISTRO
+        git clone http://github.fishros.org/https://github.com/eProsima/Micro-XRCE-DDS-Agent.git -b $ROS_DISTRO
+        git clone http://github.fishros.org/https://github.com/eProsima/Micro-CDR.git -b $ROS_DISTRO
         git clone https://github.com/micro-ROS/micro_ros_msgs.git -b $ROS_DISTRO
         git clone https://github.com/micro-ROS/rosidl_typesupport_microxrcedds.git -b $ROS_DISTRO
         git clone https://github.com/micro-ROS/rmw-microxrcedds.git -b $ROS_DISTRO
